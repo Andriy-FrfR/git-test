@@ -29,3 +29,8 @@ console.log(12341234);
 
 
 console.log(12341234);
+console.log('asdfsadf');
+console.log(12341234);
+console.log(12312);
+console.log('asdf');
+console.log();
