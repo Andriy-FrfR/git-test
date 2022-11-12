@@ -1,19 +1,35 @@
-.outer-button {
-  position: relative;
+@keyframes shake {
+  25% {
+    transform: translateX(4px);
+  }
 
-  width: 300px;
-  height: 60px;
+  50% {
+    transform: translateX(-4px);
+  }
 
-  border: 0;
-  border-radius: 10px;
-
-  background-color: #000;
-  color: #fff;
+  75% {
+    transform: translateX(4px);
+  }
 }
 
-.inner-button {
-  position: absolute;
-  right: 0;
-  /* top: 50%;
-  transform: translate(); */
+.invalid {
+  animation: shake 0.3s;
+}
+
+input:invalid {
+  animation: shake 0.3s;
+}
+
+.float {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  float: right;
+  height: 300vh;
+}
+
+.con {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
 }
